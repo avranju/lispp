@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/inc",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/inc",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/inc",
+                "C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/VC/Tools/MSVC/14.11.25415/include/*",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio/Preview/Enterprise/VC/Tools/MSVC/14.11.25415/include/*",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.15063.0/winrt"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}
