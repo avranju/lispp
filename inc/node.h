@@ -1,4 +1,4 @@
-#pragma once
+#ifndef NODE_H
 
 typedef enum _tagNodeType
 {
@@ -24,3 +24,5 @@ Node *node_alloc(NodeType type, void *content);		// construct a node
 void node_free(Node *node);							// free the node graph
 Node *node_make_symbol(char *symbol);				// allocate a symbol node
 Node *node_make_list(PointerArray *list);			// allocate a list node
+
+#endif // !NODE_H
